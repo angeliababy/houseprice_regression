@@ -7,7 +7,6 @@ import pandas as pd
 import inference
 import train
 
-from sklearn import neighbors
 # 训练模型
 model = train.model
 

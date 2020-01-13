@@ -11,9 +11,9 @@ from scipy.stats import norm, skew #for some statistics
 
 # 读取文件（文件中第一列id是标号，train.csv最后一列SalePrice（房价）是预测目标变量，中间是特征变量）
 # 训练、测试集
-train = pd.read_csv(r'D:\projects\regression\train.csv')
+train = pd.read_csv(r'train.csv')
 # 预测集
-test = pd.read_csv(r'D:\projects\regression\test.csv')
+test = pd.read_csv(r'test.csv')
 
 # 第一步，查看数据，前五行
 print(train.head(5))

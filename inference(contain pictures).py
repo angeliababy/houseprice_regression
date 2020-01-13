@@ -1,19 +1,19 @@
 # 房价预测回归模型
-# part 1 数据预处理
 
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt  # Matlab-style plotting
 import seaborn as sns  # 基于matplotlib数据可视化库
-
 from scipy import stats
 from scipy.stats import norm, skew #for some statistics
 
+# part 1 数据预处理
+
 # 读取文件（文件中第一列id是标号，train.csv最后一列SalePrice（房价）是预测目标变量，中间是特征变量）
 # 训练、测试集
-train = pd.read_csv(r'D:\projects\regression\train.csv')
+train = pd.read_csv(r'train.csv')
 # 预测集
-test = pd.read_csv(r'D:\projects\regression\test.csv')
+test = pd.read_csv(r'test.csv')
 
 # 第一步，查看数据，前五行
 print(train.head(5))
