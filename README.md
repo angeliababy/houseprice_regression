@@ -5,6 +5,10 @@ python3
 
 2.各种回归模型的应用
 
+本项目完整源码地址：[https://github.com/angeliababy/houseprice_regression](https://github.com/angeliababy/houseprice_regression)
+
+项目博客地址: [https://blog.csdn.net/qq_29153321/article/details/103967670](https://blog.csdn.net/qq_29153321/article/details/103967670)
+
 ## 数据准备
 数据来源是房价，来自kaggle练习数据集
 
